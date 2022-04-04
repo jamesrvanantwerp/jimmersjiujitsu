@@ -2,18 +2,40 @@
 <html lang="en">
 
 <head>
+    <!-- Required meta tags always come first -->
     <meta charset="utf-8" />
-    <title>Jimmers Jiu Jitsu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>NuCamp: A Better Way To Camp</title>
 </head>
 
 <body>
 
-    <header>
-        <div>
-            <h1>Jimmers Jiu Jitsu</h1>
-            <h2>lessons videos and advice</h2>
-        </div>
-    </header>
+  <header class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                <img src="img/jimmerlogo.png" class="img-fluid" />
+            </div>
+            <div class="col">
+                <h1>Jimmers Jiu Jitsu</h1>
+                <h2>helping you improve your game</h2>
+            </div>
+
+            <div class="col-md-4 col-xl-2 mt-4">
+                <a class="btn btn-info btn-btnlg" href="#reserveForm">Reserve Campsite</a>
+            </div>
+        </div>    
+    </div>
+  </header>
 
     <div>
         <h2>Discover & Review</h2>
@@ -34,26 +56,29 @@
     </div>
 
     <footer>
-        <div>
-            <h5>Links</h5>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Sites</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+      <div class="container">
+        <div class="row">             
+            <div class="col-4 col-sm-2">
+                <h5>Links</h5>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Sites</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-5">
+                  <h5>Social</h5>
+                  <a href="https://www.instagram.com/jimmersjiujitsu/">Instagram</a>
+                  <a href="http://facebook.com/">Facebook</a>
+                  <a href="https://twitter.com/JimmersJiuJitsu">Twitter</a>
+                  <a href="https://www.youtube.com/channel/UC9QSvkgClNDPLOycAb2pX2g">YouTube</a>
+            </div>
+            <div class="col-sm-4">
+                  Email: campsites@nucamp.co
+            </div>                
         </div>
-        <div>
-            <h5>Social</h5>
-            <a href="http://instagram.com/">Instagram</a>
-            <a href="http://facebook.com/">Facebook</a>
-            <a href="http://twitter.com/">Twitter</a>
-            <a href="http://youtube.com/">YouTube</a>
-        </div>
-        <div>
-            Tel: 1-206-555-1234<br />
-            Email: campsites@nucamp.co
-        </div>
+      </div>
     </footer>
 
 </body>
